@@ -1,0 +1,97 @@
+.section_menu_admin{
+    background-color: white;
+    width: 350px;
+    height: 655px;
+    box-shadow: 5px 0px 15px rgb(142, 142, 151);
+    .represent_menu{
+        // margin: 10px 20px;
+        display: flex;
+        /* border-bottom: 1px solid black; */
+        text-align: center;
+        align-items: center;
+        .logo_website{
+            width: 50%;
+            height: 50%;
+            margin: 0 auto;
+            object-fit: cover;
+            /* border-radius: 50%; */
+        }
+    }
+
+    .options_menu{
+        /* align-items: center; */
+        /* text-align: center; */
+        /* color: green; */
+        .status_manage{
+            text-align: center;
+            font-size: 18px;
+            margin: 5px 0px;
+            .infomation_sum{
+                padding: 5px 0px;
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+
+                &:hover, &:hover a{
+                    background-color: rgb(182, 190, 190);
+                    color: rgb(23, 249, 57);
+                }
+            }
+        }
+        .manage_products{
+            font-size: 18px;
+
+            .title_product{
+                color: rgb(103, 95, 83);
+                margin: 5px 0px;
+                text-align: center;
+
+                              
+            }
+            .manage_product_detail, .manage_client-detail{
+                padding: 10px 20px;
+                margin: 5px 0px;
+                color: black;
+                font-size: 18px;
+                a{
+                    color: black;
+                    text-decoration: none;
+                }
+                &:hover, &:hover a, &:hover, &:hover a{
+                    background-color: rgb(182, 190, 190);
+                    color: rgb(23, 249, 57);
+                }
+            }  
+            
+        }
+
+        .manage_clients{
+            font-size: 18px;
+
+            .title_clients{
+                color: rgb(103, 95, 83);
+                margin: 5px 0px;
+                text-align: center;
+            }
+
+            .manage_list_client{
+                padding: 10px 20px;
+                margin: 5px 0px;
+                color: black;
+                font-size: 18px;
+                a{
+                    color: black;
+                    text-decoration: none;
+                }
+                &:hover, &:hover a, &:hover, &:hover a{
+                    background-color: rgb(182, 190, 190);
+                    color: rgb(23, 249, 57);
+                }
+            }
+            
+        }
+    }
+    
+}

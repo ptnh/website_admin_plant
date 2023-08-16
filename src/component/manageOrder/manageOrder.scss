@@ -1,0 +1,180 @@
+.section_layout_content_order{
+    width: 960px;
+    height: 595px;
+    position: fixed;
+    top: 60px;
+    left: 350px;
+
+.area_section_data_order{
+    width: 98%;
+    // position: fixed;
+    // top: 100px;
+    margin: 30px 15px;
+    .list_info_detail_product_order{
+        box-shadow: 5px 0px 15px rgb(142, 142, 151);
+        max-height: 320px; 
+        // width: 100%;
+        max-width: 50%;
+        overflow: auto;
+
+        .list_products_order{               
+            width: 100%;
+            border-collapse: collapse;
+            .layout_table_order{
+                border: 2px solid rgb(3, 73, 1);            
+                .colum_1_order{
+                    width: 15%;
+                    padding: 5px 60px;
+                    border: 2px solid rgb(3, 73, 1);
+                }
+                .colum_2_order{
+                    width: 10%;
+                    padding: 5px 60px;
+                    border: 2px solid rgb(3, 73, 1);
+                }
+                .colum_3_order{
+                    width: 10%;
+                    padding: 5px 60px;
+                    border: 2px solid rgb(3, 73, 1);
+                }
+                .colum_4_order{
+                    width: 15%;
+                    padding: 5px 60px;
+                    border: 2px solid green;
+                }
+               
+            }
+            .layout_list_order{
+                th{
+                    border: 2px solid rgb(0, 133, 33);
+                    padding: 10px 0px;
+                }
+                
+            }
+            
+        }
+    }
+
+    .list_info_detail_product_client{
+        box-shadow: 5px 0px 15px rgb(142, 142, 151);
+        max-height: 320px;
+        margin-left: 10px; 
+        // margin-top: 360px;
+        max-width: 48%;
+        overflow: auto;
+        .list_products_client{                        
+            width: 100%;
+            border-collapse: collapse;
+            .layout_table_client{
+                border: 2px solid rgb(3, 73, 1);;            
+                .colum_1_client{
+                    width: 15%;
+                    padding: 5px 60px;
+                    border: 2px solid rgb(3, 73, 1);;
+                }
+                .colum_2_client{
+                    width: 10%;
+                    padding: 5px 60px;
+                    border: 2px solid rgb(3, 73, 1);;
+                }
+                .colum_3_client{
+                    width: 10%;
+                    padding: 5px 60px;
+                    border: 2px solid rgb(3, 73, 1);;
+                }
+                .colum_4_client{
+                    width: 15%;
+                    padding: 5px 60px;
+                    border: 2px solid rgb(3, 73, 1);;
+                }
+               
+            }
+            .layout_list_order{
+                th{
+                    border: 2px solid rgb(0, 133, 33);
+                    padding: 10px 0px;
+                }
+                
+            }
+            
+        }
+    }
+    .list_info_detail_order{
+        box-shadow: 5px 0px 15px rgb(142, 142, 151);
+        // max-height: 150px; 
+        width: 50%;
+        margin-top: 30px;
+        margin-left: 0px;
+        border-radius: 10px;
+        .form-group{
+            margin: 10px 20px;
+            
+            .form-label{
+                padding: 4px;
+                font-size: 22px;
+                font-weight: bold;
+                margin-right: 5px;
+            }
+
+            .form-input{
+                font-size: 22px;
+                border: none;
+                margin-left: 5px;
+            }
+        }
+        
+    }
+}
+
+.area_edit_info_order{
+    width: 48%;
+    margin-left: 10px;
+    margin-top: 30px;
+    .edit_list_order{
+        border: 2px solid white;
+        height: 180px;
+        font-size: 18px;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 5px 0px 15px rgb(142, 142, 151);
+        padding-top: 10px;
+
+        .form_edit{
+            display: flex;
+            margin: 10px;
+            
+            
+            .form-group{
+                // border: 2px solid red;
+                margin: 0px 0px 10px 0px;
+                label{
+                    padding: 4px;
+                    font-size: 22px;
+                    font-weight: bold;
+                    margin-right: 5px;
+                }
+
+                input{
+                    padding: 4px;
+                    font-size: 18px;
+                }
+            }
+           
+        }
+    }
+}
+
+.btn-update{
+    padding: 8px 15px;
+    border: none;
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(0, 92, 0);
+    &:hover{
+        background: greenyellow;
+        color: rgb(0, 92, 0);
+    }
+}
+}

@@ -1,0 +1,89 @@
+.section_right_manage{
+    position: fixed;
+    top: 0;
+    right: -00px;
+    height: 40px;
+    width: 960px;
+    // border: 1px solid red;
+    .section_account_admin{
+        /* margin-top: 10px; */
+        /* align-items: center; */
+        /* text-align: center; */
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        box-shadow: 5px 0px 15px rgb(142, 142, 151);
+
+        h3{
+            margin: auto;
+            // border: 1px solid red;
+        }
+
+        .section_user{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            margin: auto;
+            .hi_user{
+                font-size: 22px;
+
+                span{
+                    font-weight: bold;
+                    color: greenyellow;
+                }
+                margin-right: 20px;
+            }
+            .img_account{
+                width: 40px;
+                height: 40px;
+                margin-right: 12px;
+                border-radius: 50%;
+                object-fit: cover;
+                /* justify-content: right; */
+
+                
+            }
+            .btn-login{
+                padding: 10px 23px;
+                font-size: 22px;
+                background: rgb(0, 92, 0);
+                border: none;
+                a{
+                    
+                    color: white;
+                    text-decoration: none;
+                }
+
+                &:hover, &:hover a{
+                    background: greenyellow;
+                    color: rgb(0, 92, 0);
+                }
+            }
+        }
+        
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: none;
+}
+
+.overlay.active {
+    display: block;
+}
+
+.container {
+    position: relative; /* Đảm bảo container là ngữ cảnh cho overlay */
+}
+
+.welcome-msg{
+    
+}
